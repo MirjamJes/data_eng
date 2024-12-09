@@ -1,7 +1,7 @@
 import duckdb
 
 # Path to the database file inside Docker
-db_path = './data/my_database.duckdb' # Adjust this path if needed
+db_path = 'project/data/my_database.duckdb' # Adjust this path if needed
 
 # Connect to DuckDB (file-based database)
 con = duckdb.connect(database=db_path)

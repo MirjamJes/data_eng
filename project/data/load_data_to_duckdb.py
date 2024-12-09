@@ -3,7 +3,7 @@ import pandas as pd
 import duckdb
 
 # Define the DuckDB database file path
-db_path = './data/my_database.duckdb'
+db_path = './data/my_database.db'
 
 # Connect to DuckDB (file-based or in-memory)
 con = duckdb.connect(database=db_path)
@@ -38,9 +38,9 @@ def clean_and_load(sheet_name, header_row, data_start_row, data_end_row, table_n
     print(f"Table {table_name} created successfully.")
 
 # File paths for each dataset
-file_path_new = './data/Eesti haldus- ja asustusjaotuse klassifikaator 2024v2.xlsx'
-file_path_last = './data/PA107_20241206-142137.csv'
-input_file_path = './data/Ametnike_palgad.xlsx'
+file_path_new = 'data/Eesti haldus- ja asustusjaotuse klassifikaator 2024v2.xlsx'
+file_path_last = 'data/PA107_20241206-142137.csv'
+input_file_path = 'data/Ametnike_palgad.xlsx'
 
 # Clean and load data from the first Excel file (Eesti haldus- ja asustusjaotuse klassifikaator 2024v2.xlsx)
 clean_and_load('Sheet1', 0, 1, 4802, 'klassifikaatorid', file_path_new)
