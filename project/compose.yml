@@ -77,3 +77,13 @@ services:
       - ./data:/app/data
     stdin_open: true
     tty: true
+
+  notebook:
+    build: notebook/
+    ports:
+      - 8888:8888
+    volumes:
+        - ./data:/app/data
+    environment:
+      - GRANT_SUDO=yesd
+
