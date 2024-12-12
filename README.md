@@ -9,6 +9,6 @@ PA107: KESKMINE BRUTOKUUPALK, MEDIAAN JA TÖÖTAJATE ARV | Maakond, Vaatlusperio
 haldus- ja asustusjaotuse klassifikaator also from Statistics Estonia)
 
 We wanted to find an answer to questions, how does municipal officials pay differ from average? How has the salary changes over the last years? What counties average salary 
-and average salary for municipal officials are the highest and lowest?
+(also for municipal officials) are the highest and lowest?
 
 Tools used were Apache Airflow for orchestration, DuckDB for data storage. 
