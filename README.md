@@ -1,4 +1,5 @@
 Data engineering course project
+
 Group 11, Martin Hõbemägi, Priit Peterson, Mirjam Jesmin
 
 The project is about municipal officials salary. Data used was from Ministry of Finance and Statistics Estonia.
