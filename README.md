@@ -13,3 +13,6 @@ We wanted to find an answer to questions, how does municipal officials pay diffe
 (also for municipal officials) are the highest and lowest?
 
 Tools used were Apache Airflow for orchestration, DuckDB for data storage, and Jupyter Notebook for data analysis. 
+
+Load_data_to_duckdb.py is initially used to load data. In folder Notbook, project_analysis.ipynb is used for project analysis. In the Data folder file 'DataEngineering StarSchema.mwb' is the starschema.
+
